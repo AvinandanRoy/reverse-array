@@ -1,8 +1,8 @@
-function reverseStringElements(str ){
-    for (let i = str.lenght-1 ; i >= 0 ; i--){
-        console.log(str[i]);
+function reverseStringElements(strs){
+    for (let j = strs.length-1 ; j >= 0 ; j--){
+        console.log(strs[j]);
     }
 }
 
-let myString = "Avinandan Roy";
-reverseStringElements(myString);
+let myStrings = "Avinandan Roy";
+reverseStringElements(myStrings);
